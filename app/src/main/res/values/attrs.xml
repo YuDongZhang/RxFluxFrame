@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textColor" format="color" />
+    <attr name="textSize" format="dimension" />
+    <declare-styleable name="RulerView">
+        <attr name="rulerToResultgap" format="dimension" />          <!--尺子距离结果的高度-->
+        <attr name="rulerHeight" format="dimension" />               <!--尺子的高度-->
+
+        <attr name="textColor"  />
+        <attr name="textSize" />
+        <attr name="lineColor" format="color" />
+        <attr name="lineSpaceWidth" format="dimension" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="lineMaxHeight" format="dimension" />
+        <attr name="lineMidHeight" format="dimension" />
+        <attr name="lineMinHeight" format="dimension" />
+        <attr name="textMarginTop" format="dimension" />
+        <attr name="alphaEnable" format="boolean" />
+        <attr name="minValue" format="float"/>
+        <attr name="maxValue" format="float"/>
+        <attr name="selectorValue" format="float"/>
+        <attr name="perValue" format="float"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="RingProgressBar">
+        <attr name="ringColor" format="color" />
+        <attr name="ringProgressColor" format="color" />
+        <attr name="ringWidth" format="dimension" />
+        <attr name="textColor"  />
+        <attr name="textSize" />
+        <attr name="textSecondSize" format="dimension"/>
+        <attr name="max" format="integer" />
+        <attr name="textIsShow" format="boolean" />
+        <attr name="progress" format="integer" />
+        <attr name="ringPadding" format="dimension" />
+        <attr name="style">
+            <enum name="STROKE" value="0" />
+            <enum name="FILL" value="1" />
+        </attr>
+        <attr name="animstyle">
+            <enum name="FROM_IN_TO_OUT" value="0" />
+            <enum name="AUTO_ROTATION" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="MenuItemWidget">
+        <attr name="itemText" format="string"/>
+        <attr name="itemicon" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="PageGridView">
+        <attr name="PagingRows" format="integer"/>
+        <attr name="PagingDiver" format="reference" />
+        <attr name="PagingColums" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="MediaView">
+        <attr name="mediaColor" format="color"/>
+        <attr name="mediaCount" format="integer" />
+        <attr name="mediaOffset" format="dimension" />
+        <attr name="mediaWidth" format="dimension" />
+    </declare-styleable>
+</resources>
